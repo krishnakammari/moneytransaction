@@ -30,6 +30,8 @@ class Details extends Component{
 
                 const n2=parseInt(DATA[ids].currentbalance);
 
+                
+
                 DATA[this.props.location.states.data.id].currentbalance=n3-n1;
                 
                 
@@ -46,6 +48,12 @@ class Details extends Component{
 
         }
 
+        const alertt=(p)=>{
+            if(p<0)
+                {
+                    alert("Insufficient Amount");
+                }
+        }
         return(
             <div>
 
@@ -65,7 +73,7 @@ class Details extends Component{
                             <h6>Bank: <span className="text-info">{this.props.location.states.data.bankname}</span></h6>
                             <h6>Available Balance: <span className="text-info">{this.props.location.states.data.currentbalance}</span></h6>
                             <h6>After Transfer: <span className="text-danger">{parseInt(DATA[this.props.location.states.data.id].currentbalance)-parseInt(this.state.after)}</span></h6>
-                            
+                            {alertt(parseInt(DATA[this.props.location.states.data.id].currentbalance)-parseInt(this.state.after))}
 
 
                             {/* <h3>{this.state.after}</h3>
