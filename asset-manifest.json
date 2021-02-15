@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/moneytransaction/static/css/main.a6d72a25.chunk.css",
+    "main.js": "/moneytransaction/static/js/main.bd358e22.chunk.js",
+    "main.js.map": "/moneytransaction/static/js/main.bd358e22.chunk.js.map",
+    "runtime-main.js": "/moneytransaction/static/js/runtime-main.583df694.js",
+    "runtime-main.js.map": "/moneytransaction/static/js/runtime-main.583df694.js.map",
+    "static/css/2.658248ec.chunk.css": "/moneytransaction/static/css/2.658248ec.chunk.css",
+    "static/js/2.4348c5a8.chunk.js": "/moneytransaction/static/js/2.4348c5a8.chunk.js",
+    "static/js/2.4348c5a8.chunk.js.map": "/moneytransaction/static/js/2.4348c5a8.chunk.js.map",
+    "static/js/3.72a9c4a9.chunk.js": "/moneytransaction/static/js/3.72a9c4a9.chunk.js",
+    "static/js/3.72a9c4a9.chunk.js.map": "/moneytransaction/static/js/3.72a9c4a9.chunk.js.map",
+    "index.html": "/moneytransaction/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/moneytransaction/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.a6d72a25.chunk.css.map": "/moneytransaction/static/css/main.a6d72a25.chunk.css.map",
+    "static/js/2.4348c5a8.chunk.js.LICENSE.txt": "/moneytransaction/static/js/2.4348c5a8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.583df694.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.4348c5a8.chunk.js",
+    "static/css/main.a6d72a25.chunk.css",
+    "static/js/main.bd358e22.chunk.js"
+  ]
+}
